@@ -1,3 +1,16 @@
-﻿// See https://aka.ms/new-console-template for more information
+/*
+Student student = new Student(18, "Tomáš");
+Console.WriteLine("Student name: " + student.Name);
+student.Greet();
+ChangeStudent(student);
+student.Greet();
 
-Console.WriteLine("Hello, World!");
+void ChangeStudent(Student s)
+{
+    s.Name = "Nothing";
+}
+*/
+
+Wall wall = new Wall(20, 30, "cihly");
+Console.WriteLine("Informace o zdi: ");
+wall.PrintInfo();
