@@ -3,7 +3,7 @@ class Student
     public int Age;
     public string Name;
 
-    public Student(int age, string name)
+    public Student(string name, int age)
     {
         this.Age = age;
         this.Name = name;
@@ -11,6 +11,6 @@ class Student
 
     public void Greet()
     {
-        Console.WriteLine("Dobry den pane uciteli. Jmenuju se: " + Name);
+        Console.WriteLine("Dobry den pane uciteli. Jmenuju se " + Name + " a je mi " + Age);
     }
 }
